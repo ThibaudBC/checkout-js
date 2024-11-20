@@ -327,6 +327,7 @@ class Checkout extends Component<
         return (
             <LoadingOverlay hideContentWhenLoading isLoading={isRedirecting}>
                 <div className="layout-main">
+                <h1>Hello ! Welcome to my CheckoutJS</h1>
                     <LoadingNotification isLoading={(!isShowingWalletButtonsOnTop && isPending) || extensionState.isShowingLoadingIndicator} />
 
                     <PromotionBannerList promotions={promotions} />
